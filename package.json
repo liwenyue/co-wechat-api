@@ -1,6 +1,6 @@
 {
   "name": "co-wechat-open-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "微信开放平台Node库API，ES6版本",
   "main": "index.js",
   "scripts": {
