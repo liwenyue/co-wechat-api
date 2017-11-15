@@ -19,8 +19,6 @@
 - 素材管理
 - 摇一摇周边
 
-详细参见[API文档](http://doxmate.cool/node-webot/co-wechat-api/api.html)
-
 
 ## Installation
 
@@ -63,13 +61,6 @@ var api = new API('component_appid', 'component_appsecret', 'authorizer_appid', 
    await fs.writeFile('appid_token.txt', JSON.stringify(token));
  });
 ```
-
-## Show cases
-### Node.js API自动回复
-
-
-欢迎关注。
-
 
 ## 详细API
 原始API文档请参见：[消息接口指南](http://mp.weixin.qq.com/wiki/index.php?title=消息接口指南)。
