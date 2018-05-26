@@ -1,6 +1,6 @@
 'use strict';
 
-const API = require('./lib/api_common');
+const {API, Oauth, ComponentAPI } = require('./lib/api_common');
 // 菜单接口
 API.mixin(require('./lib/api_menu'));
 // 分组管理
@@ -58,4 +58,4 @@ API.mixin(require('./lib/api_shakearound'));
 // 门店管理接口
 API.mixin(require('./lib/api_poi'));
 
-module.exports = API;
+module.exports = {API, Oauth, ComponentAPI};
