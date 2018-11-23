@@ -16,6 +16,7 @@
     "wechat"
   ],
   "dependencies": {
+    "co-wechat-open-api": "2.0.5",
     "formstream": ">=0.0.8",
     "httpx": "^2.1.1"
   },
